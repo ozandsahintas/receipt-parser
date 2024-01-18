@@ -3,6 +3,16 @@
 Since this is a simple Console Application project, there is no Code Spectrum here.<br>
 But you can read my thinking process down below.
 
+## Setup
+
+``` make setup ``` sets up the project and make it ready to ```make run```
+
+* ``` make setup ```  builds the project and creates a folder and a file in it ```ReceiptParser_Export/file.json```
+* Replace your proper .json file with ```file.json```.
+* ``` make run ``` will run ```ReceiptParser_Export/ReceiptParser.exe```
+* Your receipt will be here: ```ReceiptParser_Export/receipt.txt```
+
+
 ## Thinking Process
 
 > Request: Requested output data (correct output)
@@ -112,3 +122,9 @@ If you swap those data's x values with its neighbour, the algorithm works exactl
 * If the data has not been manipulated, all four points output more precise solution.
 * If the data has not been manipulated and after the all four points calculations if it still behave similar, the responsibility lies with the sender of the data.
 * The data does not fit our algorithm, does not seem important.
+
+
+## Errors
+
+* Unhandled exception. System.IO.FileNotFoundException: Could not find file "C:/..." <br>
+  Missing .json file. Try using ```make setup``` instead.
