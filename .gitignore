@@ -397,5 +397,5 @@ FodyWeavers.xsd
 # JetBrains Rider
 *.sln.iml
 
-# AppConfig
-*.config
+# ReceiptParser_Export folder
+*_Export/*
