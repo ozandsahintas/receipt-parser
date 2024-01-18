@@ -22,7 +22,7 @@ But you can read my thinking process down below.
 Request
 ```
 1 TEŞEKKÜRLER
-2 XXXX TEKS. GIDA INS SAN. LTD.STI.
+2 XXXX TEKS. GIDA XAX XBX LTD.STI.
 ...
 ```
 Response, 
@@ -121,7 +121,7 @@ If you swap those data's x values with its neighbour, the algorithm works exactl
 * However, due to not knowing whether the data has been manipulated (if it has been manipulated and is in the way I described above, there is no need for further development) and because it is only an averaging the numbers, it was not added to the project due to time constraints.
 * If the data has not been manipulated, all four points output more precise solution.
 * If the data has not been manipulated and after the all four points calculations if it still behave similar, the responsibility lies with the sender of the data.
-* The data does not fit our algorithm, does not seem important.
+* The data does not fit our algorithm, does not seem important ("Diet Coke" and "Coke Diet" same meaning or "Cashier: John Doe" and "Cashier Doe : John" same meaning as well as "XXXX GIDA TEKS. XAX" and "XXXX TEKS. GIDA XAX").
 
 
 ## Errors
